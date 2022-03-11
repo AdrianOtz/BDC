@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+body {
+    background-color: #daf7ff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Cpath fill='%23ff54c5' fill-opacity='0.16' d='M192 15v2a11 11 0 0 0-11 11c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H145v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11 13 13 0 1 1 .02 26 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43a6.1 6.1 0 0 0-3.03 4.87V143h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 181 164a11 11 0 0 0 11 11v2a13 13 0 0 1-13-13 12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84a6.1 6.1 0 0 0-4.87-3.03H145v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 124 181a11 11 0 0 0-11 11h-2a13 13 0 0 1 13-13c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43a6.1 6.1 0 0 0 3.03-4.87V145h-35.02a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 107 124a11 11 0 0 0-22 0c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H49v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11A13 13 0 0 1 81 192h-2a11 11 0 0 0-11-11c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V145H11.98a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 0 1 0 177v-2a11 11 0 0 0 11-11c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H47v-35.02a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 28 109a13 13 0 1 1 0-26c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43A6.1 6.1 0 0 0 47 84.02V49H11.98a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 11 28 11 11 0 0 0 0 17v-2a13 13 0 0 1 13 13c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84A6.1 6.1 0 0 0 11.98 47H47V11.98a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 68 11 11 11 0 0 0 79 0h2a13 13 0 0 1-13 13 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43A6.1 6.1 0 0 0 49 11.98V47h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 85 68a11 11 0 0 0 22 0c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H143V11.98a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 124 13a13 13 0 0 1-13-13h2a11 11 0 0 0 11 11c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V47h35.02a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 179 28a13 13 0 0 1 13-13zM84.02 143a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 83 124a13 13 0 1 1 26 0c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84a6.1 6.1 0 0 0 4.87 3.03H143v-35.02a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 164 107a11 11 0 0 0 0-22c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V49h-35.02a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 1 1 83 68a12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84A6.1 6.1 0 0 0 84.02 49H49v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 28 85a11 11 0 0 0 0 22c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V143h35.02z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.main-container {
+    width: 100%;
+    max-width: 100em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-menu {
+    width: 95%;
+    margin: auto;
+    background-image: linear-gradient(135deg, #e8eeeb, #5bfff1, #57b3ff, #66a7fc, #d1d9ff, #dad8fa, #8f91fc);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    border: 5px solid #ff5697;
+    border-radius: 3em;
+    margin-bottom: 3em;
+}
+
+.nav-main {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 1em 0;
+    
+}
+
+.nav-main ul li:hover {
+    background: #013579;
+    color: yellowgreen;
+    opacity: .4;
+    transition: ease-in .2s;
+    border-radius: 5em;
+}
+
+.nav-main ul li a:hover {
+    color: yellow;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 1em;
+}
+
+.nav-main ul li a {
+    padding: 1em;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 650px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #546dfa;
+}
+
+li {
+    list-style: none;
+}
+
+h3 img{
+    width: 40px;
+    margin-left: 2em;
+}
+
+.container-abc {
+    width: auto;
+    box-sizing: border-box;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    display: flex;
+    transform-style: preserve-3d;
+    gap: 15%;
+    transform: rotateY(30deg) rotateX(10deg);
+    background-color: #94ffb4;
+    border-radius: 5em;
+    border: .5em solid #ff0062;
+    
+    /*Gradient background*/
+    background-image: linear-gradient(135deg, #e8eeeb, #5bfff1, #57b3ff, #66a7fc, #d1d9ff, #dad8fa, #8f91fc);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+}
+   
+    /*Animation background*/
+    @keyframes fanimado {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container-abc .text {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    transition: 2.5s ease-in-out;
+    transition-delay: calc(0.25s * var(--j));
+}
+
+.container-abc:hover .text {
+    transform: rotateX(-360deg);
+}
+
+.container-abc:hover .text:last-child {
+    transform: rotateX(630deg);
+}
+
+.container-abc .text::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #02449b;
+    transform-origin: left;
+    transform: rotateY(90deg) translateX(-50px);
+}
+
+.container-abc .text:last-child::before {
+    background: #5eff00;
+}
+
+.container-abc .text span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#00ccff,#2b83f7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: #d6fc00;
+    transform-style: preserve-3d;
+    transform: rotateX(calc(90deg * var(--i))) translateZ(50px);
+}
+
+.container-abc .text:last-child span {
+    background: linear-gradient(#cdda1f ,#70c501);
+    color: #5b65ffef;
+}
+
+.hero-main {
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    color: #0051ff;
+    border: 1px solid #7254fa;
+    background-color: #9fecff;
+    width: 98.8vw;
+    height: 6em;
+    /*Gradient background*/
+    background-image: linear-gradient(135deg, #e8eeeb, #5bfff1, #57b3ff, #66a7fc, #d1d9ff, #dad8fa, #8f91fc);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+ 
+}
+
+h1 span {
+    color: #0098b3;
+    padding-inline-start: .1em;
+}
+
+h1 img {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    width: 4.5em;
+}
+
+.acerca-de {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 90vw;
+    font-size: 1.7em;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 4.5em;
+    margin-left: 2em;
+}
+
+h2 {
+    color: #0051ff;
+}
+
+h2 span {
+    color: #70c501;
+}
+
+.acerca-de img {
+    width: 90%;
+    grid-column: 1/5;
+    border: 2px solid #7254fa;
+    border-radius: 10%;
+    z-index: 1;
+    margin-left: 5em;
+    margin-top: -5em;
+}
+
+.acerca-de-info {
+    grid-column: 5/10;
+    padding: 3em;
+    margin-left: 7em;
+    margin-top: -5em;
+    background: #0051ff31;
+    border: 2px solid #546dfa;
+    border-radius: 5em;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-image: linear-gradient(135deg, #e8eeeb, #5bfff1, #57b3ff, #66a7fc, #d1d9ff, #dad8fa, #8f91fc);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    border: 3px solid #ff3a96;
+    border-radius: 50em;
+    margin-bottom: 1em;
+    margin-top: -2em;
+}
+
+.box-img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 200s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.box-img span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) *45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+    border: 1em solid #d6fa5485;
+    border-radius: 3em;
+}
+
+.box-img span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2em;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+    font-size: 4em;
+    margin-top: 60px;
+    background: #546dfa60;
+    border: 3px solid #00ccff;
+    color: #0098b3;
+    width: 98.5vw;
+    border-radius: 2em;
+    height: 200px;
+}
+
+h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    font-size: 2em;
+    margin-top: -.2em;
+    background-image: linear-gradient(135deg, #e8eeeb, #5bfff1, #57b3ff, #66a7fc, #d1d9ff, #dad8fa, #8f91fc);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    border-radius: 5em;
+    border: 2px solid #8e029b71;
+    color: #0464f5c5;
+    width: 25vw;
+    margin-left: 16em;
+}
+
+.main-section {
+    width: 90%;
+    margin: auto;
+}
+
+.section {
+    width: 30.333%;
+    float: left;
+    margin-left: 2em;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    
+    background-image: linear-gradient(135deg, #e8eeeb, #5bfff1, #57b3ff, #66a7fc, #d1d9ff, #dad8fa, #8f91fc);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    border: 5px solid #00ff9dfd;
+    border-radius: 3em;
+    color: #000000;
+}
+
+.section li {
+    margin-left: 1.5em;
+    font-size: 1.2em;
+}
+
+.section h6 {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    color: #ffffffd8;
+    background: #01357981;
+    border-radius: 5em;
+}
+
+.section img {
+    width: 90%;
+    border-radius: 3em;
+    border: 1em solid #0084ff8f;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.parrafo p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32em;
+    font-size: 1.5em;
+    background: #0098b3;
+    color: #dad8fa;
+    height: 60px;
+    margin-bottom: 9em;
+    border: 1px solid #02449b;
+    width: 70vw;
+    border-radius: 4em;
+    margin-left: 7.8em;
+}
+
+.contacto-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto {
+    background: #333d74b0;
+    width: 98.5vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 500px;
+    margin-top: 2em;
+    font-size: 2em;
+    border: 1px solid #0051ff;
+    color: white;
+}
+
+.contacto p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #546dfa;
+    background: #546dfa;
+    height: 50px;
+    border: 5px solid #57b3ffad;
+    border-radius: 2em;
+    width: 800px;
+    height: 200px;
+    margin-top: 2em;
+}
+
+.contacto-title {
+    margin-bottom: -6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 17.4em;
+    color: #003dadd7;
+    margin-top: 2em;
+    width: 150px;
+    opacity: .7;
+}
